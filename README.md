@@ -9,7 +9,6 @@ Credits: [@wesleywillians](https://github.com/wesleywillians)
 <li>Go: [https://go.dev/dl](https://go.dev/dl)</li>
 </ol>
 
----
 #### Go Mods:
 <ol>
     <li>github.com/mattn/go-sqlite3</li>
@@ -25,13 +24,14 @@ Example:
 
 `$ go get github.com/maragudk/migrate`
 
+---
 ### Testing
 
 To run the implemented tests, run the following command in the project directory:
 
 `$ go test ./...`
 
-
+---
 ### Run the App
 
 In terminal, run the command from the app root directory:
