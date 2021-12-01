@@ -9,5 +9,5 @@ type TransactionDtoInput struct {
 type TransactionDtoOutput struct {
 	ID string
 	Status string
-	ErrorMessage: ""
+	ErrorMessage string
 }
