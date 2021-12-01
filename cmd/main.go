@@ -1,13 +1,13 @@
-package cmd
+package main
 
 import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
+	_ "github.com/mattn/go-sqlite3"
 	"log"
 	"tiagoncardoso/gotostudy/adapter/repository"
 	"tiagoncardoso/gotostudy/usecase/process_transaction"
-	_ "github.com/mattn/go-sqlite3"
 )
 
 func main()  {
@@ -23,7 +23,7 @@ func main()  {
 	input := process_transaction.TransactionDtoInput{
 		ID:				"1",
 		AccountID: 		"1",
-		Amount: 		100,
+		Amount: 		0,
 	}
 
 	output, err := ucase.Execute(input)
