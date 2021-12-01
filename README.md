@@ -4,13 +4,13 @@ Golang learning labs
 Credits: [@wesleywillians](https://github.com/wesleywillians)
 
 ---
-###Dependencies:
+### Dependencies:
 <ol>
 <li>Go: [https://go.dev/dl](https://go.dev/dl)</li>
 </ol>
 
 ---
-####Go Mods:
+#### Go Mods:
 <ol>
     <li>github.com/mattn/go-sqlite3</li>
     <li>github.com/stretchr/testify/assert</li>
@@ -25,14 +25,14 @@ Example:
 
 `$ go get github.com/maragudk/migrate`
 
-###Testing
+### Testing
 
 To run the implemented tests, run the following command in the project directory:
 
 `$ go test ./...`
 
 
-###Run the App
+### Run the App
 
 In terminal, run the command from the app root directory:
 
